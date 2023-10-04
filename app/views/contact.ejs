@@ -1,0 +1,46 @@
+<%- include('partials/header.ejs') %>
+<link rel="stylesheet" type="text/css" href="style.css">
+<section id="contact">
+    <div class="contact-form">
+        <h2>Contact us</h2>
+       
+        <form action="http://localhost:8089/#index" method="GET">
+            <table style="width:100%">
+            <tr>
+                <td>
+            <input type="text" name="first_name" placeholder="First Name" required>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <input type="tel" name="contact_number" placeholder="Contact Number" required>
+            </td>
+             </tr>
+             <tr>
+                <td>
+            <input type="email" name="email" placeholder="Email Address" required>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <textarea name="message" placeholder="Message" required></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <button type="submit" class="form-button" href = "/contact">Send Message</button>
+            </td>
+            </tr>
+            </table>
+        </form>
+    </div>
+    
+
+
+</section>
+
